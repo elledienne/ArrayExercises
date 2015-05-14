@@ -63,21 +63,59 @@ var tree = ["roots", "leaf"];
 
 // Create an array of Objects that represent Famous People.
 // Each Object should have a Name, Age, and their Profession as properties
+var VIP = [
+	{
+		name: "Myself",
+		age: 22,
+		profession: "Hopeing to be a coder"
+	},
+	{
+		name: "Brad Pitt",
+		age: 40,
+		profession: "Actor"
+	}
+];
 
 
 // Create an array of songs you'd like Jon to add to the playlist of music 
 // to listen to in class.  Each song should be an object with at least 
 // a title and an artist.
-
+var songs = [
+	{
+		title: "So What",
+		artist: "Metallica"
+	},
+	{
+		title: "Cirano",
+		artist: "Guccini"
+	}
+];
 
 // Create an array of functions. Define any functions you want, they can 
 // be anything! But make sure the syntax is correct :D
-
+var fn = [
+	function(name){
+		alert("Hello "+name+"!");
+	},
+	function(number){
+		return number*2;
+	}
+];
 
 // Create an array of Sublime shortcuts.  Each item should have a keystroke 
 // combination and a textual description of what the key combination does. 
 // You can find Sublime Text Shortcuts by traversing the Sublime Text's GUI
 // e.g. File Menu options.
+var sc = [
+	{
+		keys: "CMD+B",
+		description: "Build"
+	},
+	{
+		keys: "CMD+R",
+		description: "Run"
+	}
+];
 
 
 
